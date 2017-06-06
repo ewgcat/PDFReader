@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "com.xinwis.pdfreader"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+//    sourceSets {
+//        main {
+//        }
+//    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':PDFReadLibrary')
+
+//    compile 'com.android.support:appcompat-v7:25.3.1'
+//    compile 'com.googlecode.androidannotations:androidannotations-api:2.7.1'
+//    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+//    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+//    provided 'com.googlecode.androidannotations:androidannotations:2.7.1'
+}
