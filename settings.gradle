@@ -1,1 +1,1 @@
-include ':app',':PDFReadLibrary'
+include ':app', ':pdf_lib'
