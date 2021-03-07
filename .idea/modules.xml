@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PDFReadLibrary/PDFReadLibrary.iml" filepath="$PROJECT_DIR$/PDFReadLibrary/PDFReadLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PDFReader.iml" filepath="$PROJECT_DIR$/PDFReader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PDFReader.iml" filepath="$PROJECT_DIR$/.idea/modules/PDFReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PDFReader.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PDFReader.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pdf_lib/PDFReader.pdf_lib.iml" filepath="$PROJECT_DIR$/.idea/modules/pdf_lib/PDFReader.pdf_lib.iml" />
     </modules>
   </component>
 </project>
